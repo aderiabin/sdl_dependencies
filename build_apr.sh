@@ -17,9 +17,8 @@
     apr_cv_mutex_robust_shared=no \
     apr_cv_tcp_nodelay_with_cork=no \
     ac_cv_sizeof_struct_iovec=8 \
-    CC=ntoarm-gcc \
-    CXX=ntoarm-g++ \
+    CC=$CC \
+    CXX=$CXX \
 ./configure --host=x86 --target=armle \
-            --prefix=/opt/qnx650/target/qnx6/usr &&\
+            --prefix=$PREFIX &&\
 make
-
