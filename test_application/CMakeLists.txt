@@ -30,10 +30,14 @@
 cmake_minimum_required(VERSION 2.8.11)
 
 set (PROJECT Test3rdpartyLibraries)
+
 project (${PROJECT})
 
 add_executable(${PROJECT} main.cc)
+
 target_link_libraries( ${PROJECT}
     log4cxx
     jsoncpp
 )
+
+target_include_directories(${PROJECT} PRIVATE  $ENV{PREFIX}/include)
