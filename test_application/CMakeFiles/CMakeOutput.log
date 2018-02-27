@@ -1,0 +1,428 @@
+The target system is: QNX -  - armv7
+The host system is: Linux - 4.13.0-32-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/qnx650/host/linux/x86//usr/bin/ntoarmv7-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/qnx650/host/linux/x86//usr/bin/ntoarmv7-c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/qnx650/host/linux/x86/usr/bin/make" "cmTC_56fa3/fast"
+/opt/qnx650/host/linux/x86/usr/bin/make -f CMakeFiles/cmTC_56fa3.dir/build.make CMakeFiles/cmTC_56fa3.dir/build
+make[1]: Entering directory `/home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56fa3.dir/testCCompiler.c.o
+/opt/qnx650/host/linux/x86//usr/bin/ntoarmv7-gcc     -o CMakeFiles/cmTC_56fa3.dir/testCCompiler.c.o   -c /home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_56fa3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56fa3.dir/link.txt --verbose=1
+/opt/qnx650/host/linux/x86//usr/bin/ntoarmv7-gcc       CMakeFiles/cmTC_56fa3.dir/testCCompiler.c.o  -o cmTC_56fa3  
+make[1]: Leaving directory `/home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/qnx650/host/linux/x86/usr/bin/make" "cmTC_3dd0f/fast"
+/opt/qnx650/host/linux/x86/usr/bin/make -f CMakeFiles/cmTC_3dd0f.dir/build.make CMakeFiles/cmTC_3dd0f.dir/build
+make[1]: Entering directory `/home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3dd0f.dir/CMakeCCompilerABI.c.o
+/opt/qnx650/host/linux/x86//usr/bin/ntoarmv7-gcc     -o CMakeFiles/cmTC_3dd0f.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_3dd0f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3dd0f.dir/link.txt --verbose=1
+/opt/qnx650/host/linux/x86//usr/bin/ntoarmv7-gcc      -v CMakeFiles/cmTC_3dd0f.dir/CMakeCCompilerABI.c.o  -o cmTC_3dd0f   
+Using built-in specs.
+Target: arm-unknown-nto-qnx6.5.0eabi
+Configured with: ../configure --srcdir=.. --build=i686-pc-linux-gnu --enable-cheaders=c --with-as=ntoarm-as --with-ld=ntoarm-ld --with-sysroot=/opt/qnx650/target/qnx6/ --disable-werror --libdir=/opt/qnx650/host/linux/x86/usr/lib --libexecdir=/opt/qnx650/host/linux/x86/usr/lib --target=arm-unknown-nto-qnx6.5.0eabi --prefix=/opt/qnx650/host/linux/x86/usr --exec-prefix=/opt/qnx650/host/linux/x86/usr --with-local-prefix=/opt/qnx650/host/linux/x86/usr --enable-languages=c++ --enable-threads=posix --disable-nls --disable-libssp --disable-tls --disable-libstdcxx-pch --enable-libmudflap --enable-__cxa_atexit --with-gxx-include-dir=/opt/qnx650/target/qnx6/usr/include/c++/4.4.2 --enable-multilib --with-bugurl=http://www.qnx.com --enable-shared CC=i686-unknown-linux-gnu-gcc LDFLAGS='-Wl,-s ' AUTOMAKE=: AUTOCONF=: AUTOHEADER=: AUTORECONF=: ACLOCAL=:
+Thread model: posix
+gcc version 4.4.2 (GCC) 
+COMPILER_PATH=/opt/qnx650/host/linux/x86//usr/bin/:/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/:/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/
+LIBRARY_PATH=/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/:/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/:/opt/qnx650/target/qnx6//usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3dd0f'
+ /opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/collect2 --sysroot=/opt/qnx650/target/qnx6/ -V -dynamic-linker /usr/lib/ldqnx.so.2 -m armnto -X -EL -o cmTC_3dd0f /opt/qnx650/target/qnx6/armle-v7/lib/crt1.o /opt/qnx650/target/qnx6/armle-v7/lib/crti.o /opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/crtbegin.o -L/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2 -L/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc -L/opt/qnx650/target/qnx6//usr/lib CMakeFiles/cmTC_3dd0f.dir/CMakeCCompilerABI.c.o -lgcc -L /opt/qnx650/target/qnx6/armle-v7/lib/gcc/4.4.2 -L /opt/qnx650/target/qnx6/armle-v7/lib -L /opt/qnx650/target/qnx6/armle-v7/usr/lib -L /opt/qnx650/target/qnx6/armle-v7/opt/lib -rpath-link /opt/qnx650/target/qnx6/armle-v7/lib/gcc/4.4.2:/opt/qnx650/target/qnx6/armle-v7/lib:/opt/qnx650/target/qnx6/armle-v7/usr/lib:/opt/qnx650/target/qnx6/armle-v7/opt/lib -lc -Bstatic -lc -lgcc /opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/crtend.o /opt/qnx650/target/qnx6/armle-v7/lib/crtn.o
+GNU ld (GNU Binutils) 2.19.1
+  Supported emulations:
+   armnto
+make[1]: Leaving directory `/home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ntoarmv7-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/opt/qnx650/host/linux/x86/usr/bin/make" "cmTC_3dd0f/fast"]
+  ignore line: [/opt/qnx650/host/linux/x86/usr/bin/make -f CMakeFiles/cmTC_3dd0f.dir/build.make CMakeFiles/cmTC_3dd0f.dir/build]
+  ignore line: [make[1]: Entering directory `/home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_3dd0f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/qnx650/host/linux/x86//usr/bin/ntoarmv7-gcc     -o CMakeFiles/cmTC_3dd0f.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_3dd0f]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3dd0f.dir/link.txt --verbose=1]
+  ignore line: [/opt/qnx650/host/linux/x86//usr/bin/ntoarmv7-gcc      -v CMakeFiles/cmTC_3dd0f.dir/CMakeCCompilerABI.c.o  -o cmTC_3dd0f   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: arm-unknown-nto-qnx6.5.0eabi]
+  ignore line: [Configured with: ../configure --srcdir=.. --build=i686-pc-linux-gnu --enable-cheaders=c --with-as=ntoarm-as --with-ld=ntoarm-ld --with-sysroot=/opt/qnx650/target/qnx6/ --disable-werror --libdir=/opt/qnx650/host/linux/x86/usr/lib --libexecdir=/opt/qnx650/host/linux/x86/usr/lib --target=arm-unknown-nto-qnx6.5.0eabi --prefix=/opt/qnx650/host/linux/x86/usr --exec-prefix=/opt/qnx650/host/linux/x86/usr --with-local-prefix=/opt/qnx650/host/linux/x86/usr --enable-languages=c++ --enable-threads=posix --disable-nls --disable-libssp --disable-tls --disable-libstdcxx-pch --enable-libmudflap --enable-__cxa_atexit --with-gxx-include-dir=/opt/qnx650/target/qnx6/usr/include/c++/4.4.2 --enable-multilib --with-bugurl=http://www.qnx.com --enable-shared CC=i686-unknown-linux-gnu-gcc LDFLAGS='-Wl,-s ' AUTOMAKE=: AUTOCONF=: AUTOHEADER=: AUTORECONF=: ACLOCAL=:]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.4.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/qnx650/host/linux/x86//usr/bin/:/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/:/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/]
+  ignore line: [LIBRARY_PATH=/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/:/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/:/opt/qnx650/target/qnx6//usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3dd0f']
+  link line: [ /opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/collect2 --sysroot=/opt/qnx650/target/qnx6/ -V -dynamic-linker /usr/lib/ldqnx.so.2 -m armnto -X -EL -o cmTC_3dd0f /opt/qnx650/target/qnx6/armle-v7/lib/crt1.o /opt/qnx650/target/qnx6/armle-v7/lib/crti.o /opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/crtbegin.o -L/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2 -L/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc -L/opt/qnx650/target/qnx6//usr/lib CMakeFiles/cmTC_3dd0f.dir/CMakeCCompilerABI.c.o -lgcc -L /opt/qnx650/target/qnx6/armle-v7/lib/gcc/4.4.2 -L /opt/qnx650/target/qnx6/armle-v7/lib -L /opt/qnx650/target/qnx6/armle-v7/usr/lib -L /opt/qnx650/target/qnx6/armle-v7/opt/lib -rpath-link /opt/qnx650/target/qnx6/armle-v7/lib/gcc/4.4.2:/opt/qnx650/target/qnx6/armle-v7/lib:/opt/qnx650/target/qnx6/armle-v7/usr/lib:/opt/qnx650/target/qnx6/armle-v7/opt/lib -lc -Bstatic -lc -lgcc /opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/crtend.o /opt/qnx650/target/qnx6/armle-v7/lib/crtn.o]
+    arg [/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/collect2] ==> ignore
+    arg [--sysroot=/opt/qnx650/target/qnx6/] ==> ignore
+    arg [-V] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/usr/lib/ldqnx.so.2] ==> ignore
+    arg [-m] ==> ignore
+    arg [armnto] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3dd0f] ==> ignore
+    arg [/opt/qnx650/target/qnx6/armle-v7/lib/crt1.o] ==> ignore
+    arg [/opt/qnx650/target/qnx6/armle-v7/lib/crti.o] ==> ignore
+    arg [/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/crtbegin.o] ==> ignore
+    arg [-L/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2] ==> dir [/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2]
+    arg [-L/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc] ==> dir [/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc]
+    arg [-L/opt/qnx650/target/qnx6//usr/lib] ==> dir [/opt/qnx650/target/qnx6//usr/lib]
+    arg [CMakeFiles/cmTC_3dd0f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-L/opt/qnx650/target/qnx6/armle-v7/lib/gcc/4.4.2] ==> dir [/opt/qnx650/target/qnx6/armle-v7/lib/gcc/4.4.2]
+    arg [-L/opt/qnx650/target/qnx6/armle-v7/lib] ==> dir [/opt/qnx650/target/qnx6/armle-v7/lib]
+    arg [-L/opt/qnx650/target/qnx6/armle-v7/usr/lib] ==> dir [/opt/qnx650/target/qnx6/armle-v7/usr/lib]
+    arg [-L/opt/qnx650/target/qnx6/armle-v7/opt/lib] ==> dir [/opt/qnx650/target/qnx6/armle-v7/opt/lib]
+    arg [-rpath-link] ==> ignore
+    arg [/opt/qnx650/target/qnx6/armle-v7/lib/gcc/4.4.2:/opt/qnx650/target/qnx6/armle-v7/lib:/opt/qnx650/target/qnx6/armle-v7/usr/lib:/opt/qnx650/target/qnx6/armle-v7/opt/lib] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-Bstatic] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/crtend.o] ==> ignore
+    arg [/opt/qnx650/target/qnx6/armle-v7/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2] ==> [/opt/qnx650/host/linux/x86/usr/lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2]
+  collapse library dir [/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc] ==> [/opt/qnx650/host/linux/x86/usr/lib/gcc]
+  collapse library dir [/opt/qnx650/target/qnx6//usr/lib] ==> [/opt/qnx650/target/qnx6/usr/lib]
+  collapse library dir [/opt/qnx650/target/qnx6/armle-v7/lib/gcc/4.4.2] ==> [/opt/qnx650/target/qnx6/armle-v7/lib/gcc/4.4.2]
+  collapse library dir [/opt/qnx650/target/qnx6/armle-v7/lib] ==> [/opt/qnx650/target/qnx6/armle-v7/lib]
+  collapse library dir [/opt/qnx650/target/qnx6/armle-v7/usr/lib] ==> [/opt/qnx650/target/qnx6/armle-v7/usr/lib]
+  collapse library dir [/opt/qnx650/target/qnx6/armle-v7/opt/lib] ==> [/opt/qnx650/target/qnx6/armle-v7/opt/lib]
+  implicit libs: [c;c]
+  implicit dirs: [/opt/qnx650/host/linux/x86/usr/lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2;/opt/qnx650/host/linux/x86/usr/lib/gcc;/opt/qnx650/target/qnx6/usr/lib;/opt/qnx650/target/qnx6/armle-v7/lib/gcc/4.4.2;/opt/qnx650/target/qnx6/armle-v7/lib;/opt/qnx650/target/qnx6/armle-v7/usr/lib;/opt/qnx650/target/qnx6/armle-v7/opt/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/qnx650/host/linux/x86/usr/bin/make" "cmTC_0130c/fast"
+/opt/qnx650/host/linux/x86/usr/bin/make -f CMakeFiles/cmTC_0130c.dir/build.make CMakeFiles/cmTC_0130c.dir/build
+make[1]: Entering directory `/home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0130c.dir/feature_tests.c.o
+/opt/qnx650/host/linux/x86//usr/bin/ntoarmv7-gcc    -std=c99 -o CMakeFiles/cmTC_0130c.dir/feature_tests.c.o   -c /home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0130c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0130c.dir/link.txt --verbose=1
+/opt/qnx650/host/linux/x86//usr/bin/ntoarmv7-gcc       CMakeFiles/cmTC_0130c.dir/feature_tests.c.o  -o cmTC_0130c  
+make[1]: Leaving directory `/home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c89] compiler features compiled with the following output:
+Change Dir: /home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/qnx650/host/linux/x86/usr/bin/make" "cmTC_c6592/fast"
+/opt/qnx650/host/linux/x86/usr/bin/make -f CMakeFiles/cmTC_c6592.dir/build.make CMakeFiles/cmTC_c6592.dir/build
+make[1]: Entering directory `/home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6592.dir/feature_tests.c.o
+/opt/qnx650/host/linux/x86//usr/bin/ntoarmv7-gcc    -std=c89 -o CMakeFiles/cmTC_c6592.dir/feature_tests.c.o   -c /home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c6592
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6592.dir/link.txt --verbose=1
+/opt/qnx650/host/linux/x86//usr/bin/ntoarmv7-gcc       CMakeFiles/cmTC_c6592.dir/feature_tests.c.o  -o cmTC_c6592  
+make[1]: Leaving directory `/home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/qnx650/host/linux/x86/usr/bin/make" "cmTC_2c50a/fast"
+/opt/qnx650/host/linux/x86/usr/bin/make -f CMakeFiles/cmTC_2c50a.dir/build.make CMakeFiles/cmTC_2c50a.dir/build
+make[1]: Entering directory `/home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2c50a.dir/testCXXCompiler.cxx.o
+/opt/qnx650/host/linux/x86//usr/bin/ntoarmv7-c++      -o CMakeFiles/cmTC_2c50a.dir/testCXXCompiler.cxx.o -c /home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_2c50a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c50a.dir/link.txt --verbose=1
+/opt/qnx650/host/linux/x86//usr/bin/ntoarmv7-c++        CMakeFiles/cmTC_2c50a.dir/testCXXCompiler.cxx.o  -o cmTC_2c50a  
+make[1]: Leaving directory `/home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/qnx650/host/linux/x86/usr/bin/make" "cmTC_27bc5/fast"
+/opt/qnx650/host/linux/x86/usr/bin/make -f CMakeFiles/cmTC_27bc5.dir/build.make CMakeFiles/cmTC_27bc5.dir/build
+make[1]: Entering directory `/home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_27bc5.dir/CMakeCXXCompilerABI.cpp.o
+/opt/qnx650/host/linux/x86//usr/bin/ntoarmv7-c++      -o CMakeFiles/cmTC_27bc5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_27bc5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27bc5.dir/link.txt --verbose=1
+/opt/qnx650/host/linux/x86//usr/bin/ntoarmv7-c++       -v CMakeFiles/cmTC_27bc5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_27bc5   
+Using built-in specs.
+Target: arm-unknown-nto-qnx6.5.0eabi
+Configured with: ../configure --srcdir=.. --build=i686-pc-linux-gnu --enable-cheaders=c --with-as=ntoarm-as --with-ld=ntoarm-ld --with-sysroot=/opt/qnx650/target/qnx6/ --disable-werror --libdir=/opt/qnx650/host/linux/x86/usr/lib --libexecdir=/opt/qnx650/host/linux/x86/usr/lib --target=arm-unknown-nto-qnx6.5.0eabi --prefix=/opt/qnx650/host/linux/x86/usr --exec-prefix=/opt/qnx650/host/linux/x86/usr --with-local-prefix=/opt/qnx650/host/linux/x86/usr --enable-languages=c++ --enable-threads=posix --disable-nls --disable-libssp --disable-tls --disable-libstdcxx-pch --enable-libmudflap --enable-__cxa_atexit --with-gxx-include-dir=/opt/qnx650/target/qnx6/usr/include/c++/4.4.2 --enable-multilib --with-bugurl=http://www.qnx.com --enable-shared CC=i686-unknown-linux-gnu-gcc LDFLAGS='-Wl,-s ' AUTOMAKE=: AUTOCONF=: AUTOHEADER=: AUTORECONF=: ACLOCAL=:
+Thread model: posix
+gcc version 4.4.2 (GCC) 
+COMPILER_PATH=/opt/qnx650/host/linux/x86//usr/bin/:/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/:/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/
+LIBRARY_PATH=/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/:/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/:/opt/qnx650/target/qnx6//usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_27bc5'
+ /opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/collect2 --sysroot=/opt/qnx650/target/qnx6/ -V -dynamic-linker /usr/lib/ldqnx.so.2 -m armnto -X -EL -o cmTC_27bc5 /opt/qnx650/target/qnx6/armle-v7/lib/crt1.o /opt/qnx650/target/qnx6/armle-v7/lib/crti.o /opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/crtbegin.o -L/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2 -L/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc -L/opt/qnx650/target/qnx6//usr/lib CMakeFiles/cmTC_27bc5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -L /opt/qnx650/target/qnx6/armle-v7/lib/gcc/4.4.2 -L /opt/qnx650/target/qnx6/armle-v7/lib -L /opt/qnx650/target/qnx6/armle-v7/usr/lib -L /opt/qnx650/target/qnx6/armle-v7/opt/lib -rpath-link /opt/qnx650/target/qnx6/armle-v7/lib/gcc/4.4.2:/opt/qnx650/target/qnx6/armle-v7/lib:/opt/qnx650/target/qnx6/armle-v7/usr/lib:/opt/qnx650/target/qnx6/armle-v7/opt/lib -lc -Bstatic -lc -lgcc /opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/crtend.o /opt/qnx650/target/qnx6/armle-v7/lib/crtn.o
+GNU ld (GNU Binutils) 2.19.1
+  Supported emulations:
+   armnto
+make[1]: Leaving directory `/home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ntoarmv7-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/opt/qnx650/host/linux/x86/usr/bin/make" "cmTC_27bc5/fast"]
+  ignore line: [/opt/qnx650/host/linux/x86/usr/bin/make -f CMakeFiles/cmTC_27bc5.dir/build.make CMakeFiles/cmTC_27bc5.dir/build]
+  ignore line: [make[1]: Entering directory `/home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_27bc5.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/qnx650/host/linux/x86//usr/bin/ntoarmv7-c++      -o CMakeFiles/cmTC_27bc5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_27bc5]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27bc5.dir/link.txt --verbose=1]
+  ignore line: [/opt/qnx650/host/linux/x86//usr/bin/ntoarmv7-c++       -v CMakeFiles/cmTC_27bc5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_27bc5   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: arm-unknown-nto-qnx6.5.0eabi]
+  ignore line: [Configured with: ../configure --srcdir=.. --build=i686-pc-linux-gnu --enable-cheaders=c --with-as=ntoarm-as --with-ld=ntoarm-ld --with-sysroot=/opt/qnx650/target/qnx6/ --disable-werror --libdir=/opt/qnx650/host/linux/x86/usr/lib --libexecdir=/opt/qnx650/host/linux/x86/usr/lib --target=arm-unknown-nto-qnx6.5.0eabi --prefix=/opt/qnx650/host/linux/x86/usr --exec-prefix=/opt/qnx650/host/linux/x86/usr --with-local-prefix=/opt/qnx650/host/linux/x86/usr --enable-languages=c++ --enable-threads=posix --disable-nls --disable-libssp --disable-tls --disable-libstdcxx-pch --enable-libmudflap --enable-__cxa_atexit --with-gxx-include-dir=/opt/qnx650/target/qnx6/usr/include/c++/4.4.2 --enable-multilib --with-bugurl=http://www.qnx.com --enable-shared CC=i686-unknown-linux-gnu-gcc LDFLAGS='-Wl,-s ' AUTOMAKE=: AUTOCONF=: AUTOHEADER=: AUTORECONF=: ACLOCAL=:]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.4.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/qnx650/host/linux/x86//usr/bin/:/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/:/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/]
+  ignore line: [LIBRARY_PATH=/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/:/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/:/opt/qnx650/target/qnx6//usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_27bc5']
+  link line: [ /opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/collect2 --sysroot=/opt/qnx650/target/qnx6/ -V -dynamic-linker /usr/lib/ldqnx.so.2 -m armnto -X -EL -o cmTC_27bc5 /opt/qnx650/target/qnx6/armle-v7/lib/crt1.o /opt/qnx650/target/qnx6/armle-v7/lib/crti.o /opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/crtbegin.o -L/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2 -L/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc -L/opt/qnx650/target/qnx6//usr/lib CMakeFiles/cmTC_27bc5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -L /opt/qnx650/target/qnx6/armle-v7/lib/gcc/4.4.2 -L /opt/qnx650/target/qnx6/armle-v7/lib -L /opt/qnx650/target/qnx6/armle-v7/usr/lib -L /opt/qnx650/target/qnx6/armle-v7/opt/lib -rpath-link /opt/qnx650/target/qnx6/armle-v7/lib/gcc/4.4.2:/opt/qnx650/target/qnx6/armle-v7/lib:/opt/qnx650/target/qnx6/armle-v7/usr/lib:/opt/qnx650/target/qnx6/armle-v7/opt/lib -lc -Bstatic -lc -lgcc /opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/crtend.o /opt/qnx650/target/qnx6/armle-v7/lib/crtn.o]
+    arg [/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/collect2] ==> ignore
+    arg [--sysroot=/opt/qnx650/target/qnx6/] ==> ignore
+    arg [-V] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/usr/lib/ldqnx.so.2] ==> ignore
+    arg [-m] ==> ignore
+    arg [armnto] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_27bc5] ==> ignore
+    arg [/opt/qnx650/target/qnx6/armle-v7/lib/crt1.o] ==> ignore
+    arg [/opt/qnx650/target/qnx6/armle-v7/lib/crti.o] ==> ignore
+    arg [/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/crtbegin.o] ==> ignore
+    arg [-L/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2] ==> dir [/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2]
+    arg [-L/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc] ==> dir [/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc]
+    arg [-L/opt/qnx650/target/qnx6//usr/lib] ==> dir [/opt/qnx650/target/qnx6//usr/lib]
+    arg [CMakeFiles/cmTC_27bc5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-L/opt/qnx650/target/qnx6/armle-v7/lib/gcc/4.4.2] ==> dir [/opt/qnx650/target/qnx6/armle-v7/lib/gcc/4.4.2]
+    arg [-L/opt/qnx650/target/qnx6/armle-v7/lib] ==> dir [/opt/qnx650/target/qnx6/armle-v7/lib]
+    arg [-L/opt/qnx650/target/qnx6/armle-v7/usr/lib] ==> dir [/opt/qnx650/target/qnx6/armle-v7/usr/lib]
+    arg [-L/opt/qnx650/target/qnx6/armle-v7/opt/lib] ==> dir [/opt/qnx650/target/qnx6/armle-v7/opt/lib]
+    arg [-rpath-link] ==> ignore
+    arg [/opt/qnx650/target/qnx6/armle-v7/lib/gcc/4.4.2:/opt/qnx650/target/qnx6/armle-v7/lib:/opt/qnx650/target/qnx6/armle-v7/usr/lib:/opt/qnx650/target/qnx6/armle-v7/opt/lib] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-Bstatic] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2/crtend.o] ==> ignore
+    arg [/opt/qnx650/target/qnx6/armle-v7/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2] ==> [/opt/qnx650/host/linux/x86/usr/lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2]
+  collapse library dir [/opt/qnx650/host/linux/x86/usr/bin/../lib/gcc] ==> [/opt/qnx650/host/linux/x86/usr/lib/gcc]
+  collapse library dir [/opt/qnx650/target/qnx6//usr/lib] ==> [/opt/qnx650/target/qnx6/usr/lib]
+  collapse library dir [/opt/qnx650/target/qnx6/armle-v7/lib/gcc/4.4.2] ==> [/opt/qnx650/target/qnx6/armle-v7/lib/gcc/4.4.2]
+  collapse library dir [/opt/qnx650/target/qnx6/armle-v7/lib] ==> [/opt/qnx650/target/qnx6/armle-v7/lib]
+  collapse library dir [/opt/qnx650/target/qnx6/armle-v7/usr/lib] ==> [/opt/qnx650/target/qnx6/armle-v7/usr/lib]
+  collapse library dir [/opt/qnx650/target/qnx6/armle-v7/opt/lib] ==> [/opt/qnx650/target/qnx6/armle-v7/opt/lib]
+  implicit libs: [stdc++;m;c;c]
+  implicit dirs: [/opt/qnx650/host/linux/x86/usr/lib/gcc/arm-unknown-nto-qnx6.5.0eabi/4.4.2;/opt/qnx650/host/linux/x86/usr/lib/gcc;/opt/qnx650/target/qnx6/usr/lib;/opt/qnx650/target/qnx6/armle-v7/lib/gcc/4.4.2;/opt/qnx650/target/qnx6/armle-v7/lib;/opt/qnx650/target/qnx6/armle-v7/usr/lib;/opt/qnx650/target/qnx6/armle-v7/opt/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++0x] compiler features compiled with the following output:
+Change Dir: /home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/qnx650/host/linux/x86/usr/bin/make" "cmTC_97ee0/fast"
+/opt/qnx650/host/linux/x86/usr/bin/make -f CMakeFiles/cmTC_97ee0.dir/build.make CMakeFiles/cmTC_97ee0.dir/build
+make[1]: Entering directory `/home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_97ee0.dir/feature_tests.cxx.o
+/opt/qnx650/host/linux/x86//usr/bin/ntoarmv7-c++     -std=c++0x -o CMakeFiles/cmTC_97ee0.dir/feature_tests.cxx.o -c /home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_97ee0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97ee0.dir/link.txt --verbose=1
+/opt/qnx650/host/linux/x86//usr/bin/ntoarmv7-c++        CMakeFiles/cmTC_97ee0.dir/feature_tests.cxx.o  -o cmTC_97ee0  
+make[1]: Leaving directory `/home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/qnx650/host/linux/x86/usr/bin/make" "cmTC_6151f/fast"
+/opt/qnx650/host/linux/x86/usr/bin/make -f CMakeFiles/cmTC_6151f.dir/build.make CMakeFiles/cmTC_6151f.dir/build
+make[1]: Entering directory `/home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6151f.dir/feature_tests.cxx.o
+/opt/qnx650/host/linux/x86//usr/bin/ntoarmv7-c++     -std=c++98 -o CMakeFiles/cmTC_6151f.dir/feature_tests.cxx.o -c /home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6151f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6151f.dir/link.txt --verbose=1
+/opt/qnx650/host/linux/x86//usr/bin/ntoarmv7-c++        CMakeFiles/cmTC_6151f.dir/feature_tests.cxx.o  -o cmTC_6151f  
+make[1]: Leaving directory `/home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

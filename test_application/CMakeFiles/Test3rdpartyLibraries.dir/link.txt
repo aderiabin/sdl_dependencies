@@ -1,0 +1,1 @@
+/opt/qnx650/host/linux/x86//usr/bin/ntoarmv7-c++      CMakeFiles/Test3rdpartyLibraries.dir/main.cc.o  -o Test3rdpartyLibraries  
