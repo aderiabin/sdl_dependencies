@@ -2,4 +2,4 @@ cd jsoncpp
 cmake -DCMAKE_TOOLCHAIN_FILE=$CMAKE_TOOLCHAIN \
       -DCMAKE_INSTALL_PREFIX=$PREFIX \
       .
-make
+make VERBOSE=1
