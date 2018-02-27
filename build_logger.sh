@@ -21,7 +21,7 @@ chmod +x  ./configure && \
     ac_cv_sizeof_struct_iovec=8 \
     CC=$CC \
     CXX=$CXX \
-./configure --host=x86 --target=armle \
+./configure --host=$HOST --target=$TARGET \
             --prefix=$PREFIX \
             --with-apr=$PREFIX/bin/apr-1-config \
             --with-apr-util=$PREFIX/bin/apu-1-config &&\

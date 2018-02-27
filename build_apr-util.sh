@@ -19,7 +19,7 @@ cd apr-util-1.5.3 &&\
     ac_cv_sizeof_struct_iovec=8 \
     CC=$CC \
     CXX=$CXX \
-./configure --host=x86 --target=armv7 \
+./configure --host=$HOST --target=$TARGET \
             --prefix=$PREFIX \
             --with-apr=$PREFIX/bin/apr-1-config &&\
 make
