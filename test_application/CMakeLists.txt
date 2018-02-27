@@ -36,8 +36,8 @@ project (${PROJECT})
 add_executable(${PROJECT} main.cc)
 
 target_link_libraries( ${PROJECT}
-    log4cxx
-    jsoncpp
+    log4cxx -L$ENV{PREFIX}/lib
+    jsoncpp -L$ENV{PREFIX}/lib
 )
 
 target_include_directories(${PROJECT} PRIVATE  $ENV{PREFIX}/include)
