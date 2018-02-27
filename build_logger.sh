@@ -23,5 +23,6 @@ chmod +x  ./configure && \
     CXX=ntoarm-g++ \
 ./configure --host=x86 --target=armle \
             --prefix=/opt/qnx650/target/qnx6/usr \
-            --with-apr=/opt/qnx650/target/qnx6/usr/bin/apr-1-config &&\
+            --with-apr=/opt/qnx650/target/qnx6/usr/bin/apr-1-config \
+            --with-apr-util=/opt/qnx650/target/qnx6/usr/bin/apu-1-config &&\
 make

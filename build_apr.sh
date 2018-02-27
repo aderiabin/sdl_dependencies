@@ -1,4 +1,5 @@
  cd apr-1.5.0 && \
+    PATH=/opt/qnx650/host/linux/x86/usr/bin/:$PATH: && \
     ac_cv_lbl_unaligned_fail=yes \
     ac_cv_func_mmap_fixed_mapped=yes \
     ac_cv_func_memcmp_working=yes \
@@ -18,7 +19,7 @@
     ac_cv_sizeof_struct_iovec=8 \
     CC=ntoarm-gcc \
     CXX=ntoarm-g++ \
-./configure --host=armv7 --target=armv7 \
+./configure --host=x86 --target=armle \
             --prefix=/opt/qnx650/target/qnx6/usr &&\
 make
 
