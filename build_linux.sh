@@ -2,7 +2,7 @@ export PATH=:$PATH
 export CC=gcc \
 export CXX=g++ \
 export CMAKE_TOOLCHAIN=
-export PREFIX="~/sdl_dependencies/"
+export PREFIX="$HOME/sdl_dependencies/"
 export HOST= # Where code will be compied
 export TARGET= # Where code will be executed
 
