@@ -1,3 +1,0 @@
-/home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/rebuild_cache.dir
-/home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/edit_cache.dir
-/home/developer/sdl/ForQNXSupport/test_application/CMakeFiles/Test3rdpartyLibraries.dir

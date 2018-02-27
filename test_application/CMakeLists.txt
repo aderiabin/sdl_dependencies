@@ -1,4 +1,4 @@
-# Copyright (c) 2016, Ford Motor Company
+# Copyright (c) 2018, Ford Motor Company
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -33,3 +33,7 @@ set (PROJECT Test3rdpartyLibraries)
 project (${PROJECT})
 
 add_executable(${PROJECT} main.cc)
+target_link_libraries( ${PROJECT}
+    log4cxx
+    jsoncpp
+)
