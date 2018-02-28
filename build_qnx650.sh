@@ -1,10 +1,10 @@
 export PATH=/opt/qnx650/host/linux/x86/usr/bin/:$PATH
-export CC=ntoarm-gcc \
-export CXX=ntoarm-g++ \
+export CC=ntoarmv7-gcc \
+export CXX=ntoarmv7-g++ \
 export CMAKE_TOOLCHAIN=`realpath qnx_6.5.0_linux_x86.cmake`
-export PREFIX="/opt/qnx650/target/qnx6/usr"
+export PREFIX="$HOME/sdl_qnx_dependencies/"
 export HOST="x86" # Where code will be compied
-export TARGET="armle" # Where code will be executed
+export TARGET="armv7" # Where code will be executed
 
 ./build_json.sh
 (cd jsoncpp && sudo make install)
