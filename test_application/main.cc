@@ -25,7 +25,7 @@ bool jsontest() {
 
 bool logger_test() {
 	log4cxx::PropertyConfigurator::configure("log4cxx.properties");
-    log4cxx::LoggerPtr loggerMyMain(log4cxx::Logger::getLogger( "MainLogger"));
+       log4cxx::LoggerPtr loggerMyMain(log4cxx::Logger::getLogger( "MainLogger"));
 	std::string message = "DebugMessage";
 	LOG4CXX_DEBUG(loggerMyMain, message);
 	std::string log_content;
