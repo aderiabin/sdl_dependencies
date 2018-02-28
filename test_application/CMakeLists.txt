@@ -41,8 +41,10 @@ target_link_libraries( ${PROJECT}
     aprutil-1 -L$ENV{PREFIX}/lib
     apr-1 -L$ENV{PREFIX}/lib
     expat -L$ENV{PREFIX}/lib
-    expat -L$ENV{PREFIX}/lib
-    socket
 )
+
+if(${CMAKE_SYSTEM_NAME} STREQUAL QNX)
+    target_link_libraries(${PROJECT} socket)
+endif()
 
 target_include_directories(${PROJECT} PRIVATE  $ENV{PREFIX}/include)
