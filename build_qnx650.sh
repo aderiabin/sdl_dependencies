@@ -22,5 +22,9 @@ echo "======= APR UTIL successfuly installed! ======="
 (cd apache-log4cxx-0.10.0 && sudo make install)
 echo "======= LOGGER successfuly installed! ======="
 
+./build_bson.sh
+(cd bson_c_lib && sudo make install)
+echo "======= LOGGER successfuly installed! ======="
+
 ./build_test_app.sh
 echo "======= TEST APPLICATION successfuly installed! ======="
