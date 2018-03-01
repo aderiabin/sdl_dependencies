@@ -1,7 +1,7 @@
 export PATH=/opt/qnx650/host/linux/x86/usr/bin/:$PATH
 export CC=ntoarmv7-gcc \
 export CXX=ntoarmv7-g++ \
-export CMAKE_TOOLCHAIN=`realpath qnx_6.5.0_linux_x86.cmake`
+export CMAKE_TOOLCHAIN=`realpath qnx_6.5.0_armv7_toolchain.cmake`
 export PREFIX="$HOME/sdl_qnx_dependencies/"
 export HOST="x86" # Where code will be compied
 export TARGET="armv7" # Where code will be executed
