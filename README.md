@@ -6,6 +6,7 @@ This repository contains all dependencies for SDL
  - apr-util
  - log4cxx 
  - jsoncpp
+ - libbson
 
 ## Build for linux:
 
