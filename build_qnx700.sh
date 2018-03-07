@@ -1,6 +1,6 @@
 export PATH=/opt/qnx700/host/linux/x86_64/usr/bin/:$PATH
-export CC=ntoarmv7-gcc \
-export CXX=ntoarmv7-g++ \
+export CC=ntoaarch64-gcc \
+export CXX=ntoaarch64-g++ \
 export CMAKE_TOOLCHAIN=`realpath toolchain_cmake/Toolchain-QNX7-QCC-AArch64.cmake`
 export PREFIX="$HOME/sdl_qnx_dependencies/"
 export HOST="x86_64" # Where code will be compied
