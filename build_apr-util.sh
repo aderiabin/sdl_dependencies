@@ -1,5 +1,5 @@
 cd apr-util-1.5.3 &&\
-    PATH=/opt/qnx650/host/linux/x86/usr/bin/:$PATH: && \
+    PATH=/opt/qnx700/host/linux/x86_64/usr/bin/:$PATH: && \
     ac_cv_lbl_unaligned_fail=yes \
     ac_cv_func_mmap_fixed_mapped=yes \
     ac_cv_func_memcmp_working=yes \

@@ -28,11 +28,11 @@ For build and install sdl dependencies for linux run:
  
 ### Preconditions for building:
   - installed cmake
-  - installed qnx 6.5 sdk in /opt/qnx/650
+  - installed qnx XXX sdk in /opt/qnxXXX where XXX is qnx version
   - qnx etc staff in /etc/qnx
   - Environment variables : QNX_HOST, QNX_TARGET
   
- `./build_qnx.sh`
+ `./build_qnxXXX.sh`
  
  Note that is will require sudo access for installing libraries to the system
  
